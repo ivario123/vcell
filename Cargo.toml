@@ -10,3 +10,7 @@ version = "0.1.3"
 
 [features]
 const-fn = [] # Unused, but kept for backwards compatibility
+
+[dependencies]
+symex_lib = { path = "../../no_std_symex/symex/crates/symex_lib" }
+valid_derive = { git = "https://github.com/norlen/symex" }
